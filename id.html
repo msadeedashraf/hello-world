@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #myHeading {
+        color: blue;
+      }
+      .para1 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="myHeading">Welcome to CBC!</h1>
+    <br />
+    <hr />
+    <h2 class="para1">First Para</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, placeat.
+    </p>
+    <br />
+    <br />
+    <hr />
+    <h2 class="para1">Second Para</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, placeat.
+    </p>
+    <br />
+    <br />
+    <hr />
+    <br />
+    <button onclick="my_new_msg()">Click</button>
+
+    <script>
+      function my_new_msg() {
+        console.log(document.getElementById("myHeading").innerHTML);
+        document.getElementById("myHeading").innerHTML = "Sadeed";
+      }
+    </script>
+  </body>
+</html>
