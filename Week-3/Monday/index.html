@@ -3,9 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="https://www.w3schools.com/" target="_blank" />
+
     <title>Document</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .left {
+        background-color: #2196f3;
+        padding: 20px;
+        float: left;
+        width: 20%; /* The width is 20%, by default */
+      }
+
+      .right {
+        background-color: #f32121;
+        padding: 20px;
+        float: left;
+        width: 20%; /* The width is 20%, by default */
+      }
+
+      .main {
+        background-color: #f3ec21;
+        padding: 20px;
+        float: left;
+        width: 60%; /* The width is 20%, by default */
+      }
+
+      @media screen and (max-width: 800px) {
+        .left,
+        .right,
+        .main {
+          width: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
+    <!--     
     <h1>Testing Iframe</h1>
     <iframe
       name="first-frame"
@@ -16,8 +54,65 @@
     >
     </iframe>
 
-    <p>
-      <a href="https://getsol.com/" target="first-frame"> W3School </a>
+    <p></p>
+
+    <a href="/abc.html"> abc </a> -->
+
+    <!--     
+    <h1>Play List</h1>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/35kwlY_RR08?si=wh5d6SSPf7Ki35dV"
+      title="YouTube video player"
+      frameborder="0"
+     
+      allowfullscreen
+    ></iframe> -->
+    <!-- 
+    <h1>Play List</h1>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/35kwlY_RR08?si=wh5d6SSPf7Ki35dV"
+      title="YouTube video player"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+
+    <h1 style="font-size: 10vw">Responsive Text</h1>
+
+    <p style="font-size: 5vw">
+      Resize the browser window to see how the text size scales.
     </p>
+
+    <p style="font-size: 5vw">
+      Use the "vw" unit when sizing the text. 10vw will set the size to 10% of
+      the viewport width.
+    </p>
+
+    <p>
+      Viewport is the browser window size. 1vw = 1% of viewport width. If the
+      viewport is 50cm wide, 1vw is 0.5cm.
+    </p> -->
+
+    <h2>Media Queries</h2>
+    <p>Resize the browser window.</p>
+
+    <p>Make sure you reach the breakpoint at 800px when resizing this frame.</p>
+
+    <div class="left">
+      <p>Left Menu</p>
+    </div>
+
+    <div class="main">
+      <p>Main Content</p>
+    </div>
+
+    <div class="right">
+      <p>Right Content</p>
+    </div>
   </body>
 </html>
