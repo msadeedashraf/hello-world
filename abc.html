@@ -5,6 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      p.one {
+        border-color: blueviolet;
+        border-style: solid;
+        border-top-left-radius: 80px 50px;
+      }
+      p.two {
+        border-color: blueviolet;
+        border-style: solid;
+
+        border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+      }
+      p.three {
+        padding: 0px;
+        border-radius: 100px;
+        border-color: blueviolet;
+        border-style: solid;
+      }
+
+      .square {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+      }
+
+      .circle {
+        height: 100px;
+        width: 100px;
+        background-color: red;
+        border-radius: 50%;
+      }
+      .triangle {
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-left: 50px solid;
+        border-bottom: 25px solid transparent;
+      }
+
       aside {
         width: 30%;
         padding-left: 15px;
@@ -16,10 +54,33 @@
     </style>
   </head>
   <body>
-    <p>
+    <h1 class="one">This is my First Para</h1>
+    <h2 class="one">this my sub heading</h2>
+    <p class="one">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia
+      molestiae officia quae repudiandae aut, voluptate cum, fugit dolorem,
+      laborum reiciendis nostrum voluptas perspiciatis harum quasi similique
+      ipsum libero! Adipisci, amet.
+    </p>
+
+    <p class="two">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur esse
+      natus voluptatibus deleniti aspernatur iste ea, placeat nesciunt
+      laboriosam itaque consequatur perferendis sit perspiciatis harum corrupti
+      veniam officiis, quasi reiciendis?
+    </p>
+
+    <p class="three">
       My family and I visited The Epcot center this summer. The weather was
       nice, and Epcot was amazing! I had a great summer together with my family!
     </p>
+
+    <div class="square"></div>
+    <hr />
+    <div class="circle"></div>
+    <hr />
+    <div class="triangle"></div>
+    <hr />
 
     <aside>
       <p>
