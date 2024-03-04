@@ -121,69 +121,6 @@ main {
 /* background-color: #333;
 }
 */
-#contact-form {
-  background-color: #ffffff;
-  padding: 20px;
-}
-
-#contact-form-section h2 {
-  background-color: WHITE;
-  color: #333;
-}
-
-#contact-form-section {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-#contact-form input,
-#contact-form textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-  padding: 5px;
-  border: 1px solid #cccccc;
-  resize: vertical;
-}
-
-.container {
-}
-
-#contact-form input[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 15px;
-  border: none;
-}
-
-#job-search {
-  padding: 20px;
-}
-
-#job-search h2 {
-  margin-bottom: 10px;
-}
-
-.find-job {
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-}
-
-#job-search input[type="text"] {
-  width: 100%;
-  padding: 10px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-
-#job-search input[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-}
 
 #job-listings {
   padding: 20px;
@@ -228,3 +165,83 @@ main {
   padding: 20px;
   border-radius: 5px;
 }
+
+/* Contact Us Form CSS Start*/
+
+#contact-form-section {
+  padding: 20px;
+}
+
+#contact-form-section h2 {
+  margin-bottom: 10px;
+}
+
+#contact-form {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  resize: vertical;
+}
+
+#contact-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  margin-top: 50px;
+  border: none;
+}
+.form-div {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+/* Contact Us Form CSS Finished*/
+
+/* Job Search Form CSS Start*/
+
+#job-search-section {
+  padding: 20px;
+}
+
+#job-search-section h2 {
+  margin-bottom: 10px;
+}
+
+#search-form {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+#search-form input,
+#search-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+  resize: vertical;
+}
+
+#search-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border: none;
+}
+.find-job-div {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+/* Job Search Form CSS Finished*/
