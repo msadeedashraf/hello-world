@@ -146,9 +146,85 @@ main {
   resize: vertical;
 }
 
+.container {
+}
+
 #contact-form input[type="submit"] {
   background-color: #333;
   color: #fff;
   padding: 10px 15px;
   border: none;
+}
+
+#job-search {
+  padding: 20px;
+}
+
+#job-search h2 {
+  margin-bottom: 10px;
+}
+
+.find-job {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#job-search input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#job-search input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+}
+
+#job-listings {
+  padding: 20px;
+}
+
+#job-listings h2 {
+  margin-bottom: 10px;
+}
+.job-listing {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.job-listing h3 {
+  margin-bottom: 10px;
+}
+
+.job-listing p {
+  margin-bottom: 10px;
+}
+
+#terms-section h2 {
+  margin-bottom: 10px;
+}
+
+.terms-listing {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#privacy-section h2 {
+  margin-bottom: 10px;
+}
+
+.privacy-policy {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
 }
